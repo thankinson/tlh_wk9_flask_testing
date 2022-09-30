@@ -14,7 +14,7 @@ pipeline {
         }
         stage('Start App'){
             steps {
-                sh 'python .\app.py'
+                sh 'python ./app.py'
             }
         }
 
